@@ -1,2 +1,4 @@
 # Gerencar
 Projeto Integrado 
+1. Tela principal 
+2. Tela e de login
