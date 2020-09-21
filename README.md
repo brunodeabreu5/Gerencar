@@ -4,6 +4,4 @@ Projeto Integrado
 2. Tela e de login
 3. Seleciona o carro
 
-Marcelo Villalba
-
-*tela do login.
+Marcelo Villalba: tela do login.
