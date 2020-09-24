@@ -1,3 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 24px Helvetica;
+    background: #999999;
+    padding: 0;
+    margin: 0;
+}
+
+
 /*landing page */
 
 .logo {
@@ -60,13 +73,7 @@
   font-weight: 700;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
 .fundologin {
-    background-image: url(img/fundo.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -125,5 +132,79 @@ input[type=submit]:hover {
     color: white;
 }
 
+#main {
+    min-height: 800px;
+    margin: 0px;
+    padding: 0px;
+    display: -webkit-flex;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+}
 
-/*>>>>>>>e58d5f062b4c47b664aa490d5d3c2bfb8eadf16d*/
+#main>article {
+    padding: 5px;
+    border: 1px solid #cccc33;
+    background: #dddd88;
+    -webkit-flex: 3 1 60%;
+    flex: 3 1 60%;
+    -webkit-order: 2;
+    order: 2;
+}
+
+#main>nav {
+    padding: 5px;
+    border: 1px solid #8888bb;
+    background: rgb(16, 29, 66);
+    -webkit-flex: 1 6 20%;
+    flex: 1 6 20%;
+    -webkit-order: 1;
+    order: 1;
+}
+
+#main>aside {
+    padding: 5px;
+    border: 1px solid #8888bb;
+    background: #ccccff;
+    -webkit-flex: 1 6 20%;
+    flex: 1 6 20%;
+    -webkit-order: 3;
+    order: 3;
+}
+
+header,
+footer {
+    display: block;
+    padding: 5px;
+    min-height: 74px;
+    border: 1px solid #eebb55;
+    background: rgb(16, 29, 66);
+}
+
+@media all and (max-width: 640px) {
+    #main,
+    #page {
+        -webkit-flex-flow: column;
+        flex-flow: column;
+    }
+    #main>article,
+    #main>nav,
+    #main>aside {
+        -webkit-order: 0;
+        order: 0;
+    }
+    #main>nav,
+    #main>aside,
+    header,
+    footer {
+        min-height: 50px;
+        max-height: 50px;
+    }
+}
+
+.notificacao {
+    height: 500px;
+    width: 500px;
+    background-color: #cccc33;
+    padding: 30px;
+    border: 40px;
+}
