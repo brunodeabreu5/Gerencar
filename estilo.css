@@ -1,111 +1,109 @@
-<<<<<<< landing page
-.logo{
-  display: block;
-  margin: -7px 0px 0 400px;
+<<<<<<< landing page .logo {
+    display: block;
+    margin: -7px 0px 0 400px;
 }
 
-.cabecera{
-  width: 1920px;
-  height: 90px;
-  overflow: hidden;
-  background-color: rgba(255, 0, 0, 0.79);
+.cabecera {
+    width: 1920px;
+    height: 90px;
+    overflow: hidden;
+    background-color: rgba(255, 0, 0, 0.79);
 }
 
-.fondo-landing-page{
-  background-color: #000000;
-  margin: 0px 0px 0 0px;
-}  
+.fondo-landing-page {
+    background-color: #000000;
+    margin: 0px 0px 0 0px;
+}
 
 .titulo {
-  width: 525px;
-  height: 150px;
-  overflow: hidden;
-  font-family: "Arvo", serif;
-  color: #ffffff;
-  font-size: 45px;
-  letter-spacing: 0px;
-  line-height: 1.2;
-  font-style: bold;
-  margin: 10px 0px 0 40px;
-}  
-
-.fuente {
-   width: 381px;
-  height: 44px;
-  overflow: hidden;
-  font-family: "Inter-Bold", "Inter", sans-serif;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0px;
-  line-height: 1.2;
-  font-weight: 700;
-  margin: 10px 0px 0 150px;
+    width: 525px;
+    height: 150px;
+    overflow: hidden;
+    font-family: "Arvo", serif;
+    color: #ffffff;
+    font-size: 45px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-style: bold;
+    margin: 10px 0px 0 40px;
 }
 
-=
-======
-    * {
-        padding: 0;
-        margin: 0;
-    }
-    
-    .fundologin {
-        background-image: url(img/fundo.jpg);
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-color: #666666;
-        font-size: 22px;
-        font-family: "Comfortaa", sans-serif;
-        width: 100%;
-        height: 100%;
-        font-weight: bold;
-        margin: auto;
-    }
-    
-    .frame {
-        width: 500px;
-        height: 500px;
-        border-radius: 41px;
-        color: #fff;
-        background-color: rgba(4, 1, 1, 0.84);
-        top: 55%;
-        left: 50%;
-        position: absolute;
-        transform: translate(-50%, -50%);
-        box-sizing: border-box;
-        font-weight: bold;
-        padding: 40px 76px;
-    }
-    
-    h1 {
-        font-family: 'Anton', sans-serif;
-        color: #fffb00;
-        font-size: 85px;
-        letter-spacing: 4px;
-        line-height: 1.8;
-        font-weight: 400;
-    }
-    
-    .fname.lname {
-        font-family: 'Noto Sans', sans-serif;
-        line-height: 5;
-    }
-    
-    input[type=text] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-    }
-    
-    input[type=submit] {
-        padding: 12px 20px;
-        font-size: 20px;
-    }
-    
-    input[type=submit]:hover {
-        background-color: black;
-        color: white;
-    }
->>>>>>> e58d5f062b4c47b664aa490d5d3c2bfb8eadf16d
+.fuente {
+    width: 381px;
+    height: 44px;
+    overflow: hidden;
+    font-family: "Inter-Bold", "Inter", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 10px 0px 0 150px;
+}
+
+=======* {
+    padding: 0;
+    margin: 0;
+}
+
+.fundologin {
+    background-image: url(img/fundo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #666666;
+    font-size: 22px;
+    font-family: "Comfortaa", sans-serif;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    margin: auto;
+}
+
+.frame {
+    width: 500px;
+    height: 500px;
+    border-radius: 41px;
+    color: #fff;
+    background-color: rgba(4, 1, 1, 0.84);
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    font-weight: bold;
+    padding: 40px 76px;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    color: #fffb00;
+    font-size: 85px;
+    letter-spacing: 4px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.fname.lname {
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 5;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    padding: 12px 20px;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    color: white;
+}
+
+>>>>>>>e58d5f062b4c47b664aa490d5d3c2bfb8eadf16d
