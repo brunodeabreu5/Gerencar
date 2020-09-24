@@ -1,3 +1,5 @@
+/*landing page */
+
 .logo {
     display: block;
     margin: -7px 0px 0 400px;
@@ -41,7 +43,7 @@
     margin: 10px 0px 0 150px;
 }
 
-=======* {
+* {
     padding: 0;
     margin: 0;
 }
@@ -106,4 +108,5 @@ input[type=submit]:hover {
     color: white;
 }
 
->>>>>>>e58d5f062b4c47b664aa490d5d3c2bfb8eadf16d
+
+/*>>>>>>>e58d5f062b4c47b664aa490d5d3c2bfb8eadf16d*/
