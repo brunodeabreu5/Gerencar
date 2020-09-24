@@ -1,8 +1,8 @@
 /*landing page */
 
 .logo {
+    margin: -7px 0px 0 100px;
     display: block;
-    margin: -7px 0px 0 400px;
 }
 
 .cabecera {
@@ -23,11 +23,11 @@
     overflow: hidden;
     font-family: "Arvo", serif;
     color: #ffffff;
-    font-size: 45px;
+    font-size: 40px;
     letter-spacing: 0px;
     line-height: 1.2;
     font-style: bold;
-    margin: 10px 0px 0 40px;
+    margin: 10px 0px 0 180px;
 }
 
 .fuente {
@@ -36,11 +36,28 @@
     overflow: hidden;
     font-family: "Inter-Bold", "Inter", sans-serif;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 0px;
     line-height: 1.2;
-    font-weight: 700;
-    margin: 10px 0px 0 150px;
+    font-weight: 600;
+    margin: -50px 0px 0 400px;
+}
+.icono-landing{
+    margin: 0px 0px 0 60px;  
+    width: 50%;
+    height: 50%; 
+}
+
+.informacao-landing{
+  width: 696px;
+  height: 198px;
+  overflow: hidden;
+  font-family: "Inter-Bold", "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 1.2;
+  font-weight: 700;
 }
 
 * {
