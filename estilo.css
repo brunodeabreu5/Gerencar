@@ -14,15 +14,16 @@ body {
 /*landing page */
 
 .logo {
-    margin: -7px 0px 0 100px;
+    margin: -7px 0px 0 400px;
     display: block;
 }
 
 .cabecera {
-    width: 1920px;
+    width: 1363px;
     height: 90px;
     overflow: hidden;
     background-color: rgba(255, 0, 0, 0.79);
+    border: 1px solid #eebb55;
 }
 
 .fondo-landing-page {
@@ -40,7 +41,7 @@ body {
     letter-spacing: 0px;
     line-height: 1.2;
     font-style: bold;
-    margin: 10px 0px 0 180px;
+    margin: 10px 0px 0 50px;
 }
 
 .fuente {
@@ -53,11 +54,11 @@ body {
     letter-spacing: 0px;
     line-height: 1.2;
     font-weight: 600;
-    margin: -50px 0px 0 400px;
+    margin: -50px 0px 0 150px;
 }
 .icono-landing{
-    margin: 0px 0px 0 60px;  
-    width: 50%;
+    margin: 0px 0px 0 -30px;  
+    width: 45%;
     height: 50%; 
 }
 
@@ -84,6 +85,15 @@ body {
     height: 100%;
     font-weight: bold;
     margin: auto;
+}
+
+.imagenlanding {
+  background-attachment: fixed;  
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 30%;
+  margin: -40px 0px 0 40px;
 }
 
 .frame {
@@ -171,8 +181,7 @@ input[type=submit]:hover {
     order: 3;
 }
 
-header,
-footer {
+.header-index, .footer-index {
     display: block;
     padding: 5px;
     min-height: 74px;
