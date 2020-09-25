@@ -22,10 +22,10 @@ img {
 /*landing page */
 
 .logo {
-    margin: -7px 0px 0 480px;
+    margin: -9px 0px 0 400px;
     display: block;
-    width: 300px;
-    height: 100px;
+    width: 600px;
+    height: 110px;
 }
 
 .cabecera {
@@ -64,17 +64,18 @@ img {
     letter-spacing: 0px;
     line-height: 1.2;
     font-weight: 600;
-    margin: -50px 0px 0 150px;
+    margin: -40px 0px 0 150px;
 }
 .icono-landing{
     margin: 0px 0px 0 -30px;  
-    width: 45%;
-    height: 50%; 
+    width: 30%;
+    height: 30%;
+    float: left;
 }
 
 .informacao-landing{
   width: 696px;
-  height: 198px;
+  height: 325px;
   overflow: hidden;
   font-family: "Inter-Bold", "Inter", sans-serif;
   color: #ffffff;
@@ -98,14 +99,71 @@ img {
 }
 
 .imagenlanding {
-  background-attachment: fixed;  
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 30%;
-  height: 30%;
-  margin: -40px 0px 0 40px;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 30%;
+    margin: -1000px 0px 0 40px;
 }
 
+.formulario {
+    width: 750px;
+    height: 450px;
+    overflow: visible;
+    background: linear-gradient(180deg, #ff0000 0%, hsl(0, 0%, 72%) 100%);
+    margin: -470px 50px 0 0px;
+    float: right;
+}
+
+.titulo-formulario {
+    width: 500px;
+    height: 35px;
+    overflow: hidden;
+    font-family: "Inter-Bold", "Inter", sans-serif;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 30px 0px 0 160px;
+}
+
+.subtitulo-formulario{ 
+    width: 569px;
+    height: 44px;
+    overflow: hidden;
+    font-family: "Inter-Bold", "Inter", sans-serif;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0px 0px 0 190px;
+}
+.formulario-nombre{ 
+  width: 24px;
+  height: 12px;
+  overflow: hidden;
+  font-family: "Inter-Bold", "Inter", sans-serif;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0px;
+  line-height: 2;
+  margin: 0px 0px 0 80px;
+  font-weight: 700;
+
+}    
+
+.inputlanding{
+    width: 70%;
+    padding: 7px 0px;
+    margin: 0px 0px 0 80px;
+    box-sizing: border-box;
+}
+.landingboton{
+    margin: 30px 0px 0 200px;
+}
 .frame {
     width: 500px;
     height: 500px;
@@ -139,7 +197,7 @@ h2 {
     line-height: 5;
 }
 
-input[type=text] {
+.inputlogin {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
