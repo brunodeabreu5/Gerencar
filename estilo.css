@@ -10,6 +10,14 @@ body {
     margin: 0;
 }
 
+img {
+    /*background-image: url(img/fundo.jpg);*/
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
 
 /*landing page */
 
@@ -118,6 +126,10 @@ h1 {
     letter-spacing: 4px;
     line-height: 1.8;
     font-weight: 400;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
 }
 
 .fname.lname {
