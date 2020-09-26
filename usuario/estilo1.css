@@ -1,0 +1,12 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
