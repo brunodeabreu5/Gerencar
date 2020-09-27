@@ -5,7 +5,7 @@
 
 body {
     font: 24px Helvetica;
-    background: #999999;
+    /*background: #999999;*/
 }
 
 img {
@@ -124,10 +124,8 @@ h2 {
     font-family: 'Anton', sans-serif;
 }
 
-.fname.lname {
-    font-family: 'Noto Sans', sans-serif;
-    line-height: 5;
-}
+
+/*botão do login e cancelar*/
 
 input[type=text] {
     width: 100%;
@@ -146,101 +144,62 @@ input[type=submit]:hover {
     color: white;
 }
 
-#main {
-    min-height: 800px;
-    margin: 0px;
-    padding: 0px;
-    display: -webkit-flex;
-    -webkit-flex-flow: row;
-    flex-flow: row;
-}
 
-#main>article {
-    padding: 5px;
-    border: 1px solid #cccc33;
-    background: #dddd88;
-    -webkit-flex: 3 1 60%;
-    flex: 3 1 60%;
-    -webkit-order: 2;
-    order: 2;
-}
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
-#main>nav {
-    padding: 1px;
-    border: 1px solid #8888bb;
-    background: rgb(16, 29, 66);
-    -webkit-flex: 1 6 20%;
-    flex: 1 6 20%;
-    -webkit-order: 1;
-    order: 1;
-}
 
-#main>aside {
-    padding: 5px;
-    border: 1px solid #8888bb;
-    background: #ccccff;
-    -webkit-flex: 1 6 20%;
-    flex: 1 6 20%;
-    -webkit-order: 3;
-    order: 3;
-}
+/*flexbox organizando a pagina*/
 
-header,
-footer {
-    display: block;
-    padding: 3px;
-    min-height: 74px;
-    border: 1px solid #eebb55;
-    background: rgb(16, 29, 66);
+aside {
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
 }
 
 header h1 {
+    font-family: 'arial';
+}
+
+header {
+    display: flex;
+    background-color: rgb(16, 29, 66);
+    height: 70px;
+}
+
+.container-flex {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.item {
+    margin: 5px;
     text-align: center;
-    font-family: 'roboto';
-    font-size: 40pt;
-    color: #fff;
+    font-size: 1.5em;
 }
 
-@media all and (max-width: 640px) {
-    #main,
-    #page {
-        -webkit-flex-flow: column;
-        flex-flow: column;
-    }
-    #main>article,
-    #main>nav,
-    #main>aside {
-        -webkit-order: 0;
-        order: 0;
-    }
-    #main>nav,
-    #main>aside,
-    header,
-    footer {
-        min-height: 50px;
-        max-height: 50px;
-    }
-}
-
-.notificacao {
-    height: 500px;
-    width: 500px;
+.item-noti {
+    height: 400px;
+    width: 700px;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
     background-color: #cccc33;
-    padding: 30px;
-    border: 40px;
 }
 
 
-/*lateral do menu*/
+/*menu lateral*/
 
-.barraLateral {
-    background-color: #666666;
+#menuLateral {
+    background-color: rgb(137, 210, 220);
     height: 100%;
-    width: 500px;
+    width: 230px;
     transition: all .2s linear;
 }
 
 nav {
+    background-color: rgb(16, 29, 66);
     width: 100%;
 }
 
@@ -249,9 +208,9 @@ nav a {
 }
 
 .link {
-    background-color: #999999;
+    /*background-color: #8888bb;*/
     padding: 20px;
-    font-family: 'roboto';
+    font-family: 'arial';
     font-size: 25pt;
     transition: all .2s linear;
     color: #434343;
@@ -259,5 +218,5 @@ nav a {
 }
 
 .link:hover {
-    background-color: #434343;
+    background-color: #cccc33;
 }
