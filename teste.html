@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset=utf-8>
+    <title>Prioridade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <p style="text-align:center;">Lista de Prioridade</p>
+    </header>
+    <section>
+        <div id="d1">
+
+            <h2>Perguntas:</h2>
+            <h3><em>Responda com "s" para SIM ou "n" NÃO:</em></h3>
+        </div>
+    </section>
+
+    <div id="d2">
+        <p><strong>1</strong>. O diagnóstico foi conciso? <input type="text" name="p1"></p>
+        <p><strong>2</strong>. Você considera que o problema será resolvido de forma relativamente rápida? <input type="text" name="p2"></p>
+        <p><strong>3</strong>. Cliente é PCD, idoso ou necessita atenção especial? <input type="text" name="p3"></p>
+        <input type="button" value="Calcular" onclick='calc()'>
+
+        <p>
+            <div id="res"></div>
+        </p>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
