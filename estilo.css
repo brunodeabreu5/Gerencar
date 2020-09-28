@@ -87,7 +87,7 @@ img {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #666666;
+    background-color: #fff;
     font-size: 22px;
     font-family: "Comfortaa", sans-serif;
     width: 100%;
@@ -101,8 +101,8 @@ img {
     height: 500px;
     border-radius: 41px;
     color: #fff;
-    background-color: rgba(4, 1, 1, 0.84);
-    top: 55%;
+    background-color: rgb(16, 29, 66);
+    top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -122,6 +122,7 @@ h1 {
 
 h2 {
     font-family: 'Anton', sans-serif;
+    font-size: 50px;
 }
 
 
@@ -145,9 +146,6 @@ input[type=submit]:hover {
 }
 
 
-/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
-
-
 /*flexbox organizando a pagina*/
 
 aside {
@@ -156,8 +154,9 @@ aside {
     flex-direction: row;
 }
 
-header h1 {
-    font-family: 'arial';
+header h2 {
+    color: #fff;
+    margin: 0 auto;
 }
 
 header {
@@ -166,34 +165,34 @@ header {
     height: 70px;
 }
 
-.container-flex {
+section {
     display: flex;
     margin: 0 auto;
-    margin-top: 50px;
+    flex-flow: column nowrap;
 }
 
 .item {
-    margin: 5px;
+    margin: 7px;
     text-align: center;
     font-size: 1.5em;
 }
 
 .item-noti {
-    height: 400px;
-    width: 700px;
+    height: 460px;
+    width: 1000px;
     margin: 5px;
     text-align: center;
     font-size: 1.5em;
     margin-top: 20px;
-    background-color: #cccc33;
+    background-color: #fff;
+    border: 4px solid #222;
 }
 
 
 /*menu lateral*/
 
 #menuLateral {
-    background-color: rgb(137, 210, 220);
-    height: 100%;
+    background-color: rgb(16, 29, 66);
     width: 230px;
     transition: all .2s linear;
 }
@@ -215,6 +214,7 @@ nav a {
     transition: all .2s linear;
     color: #434343;
     border-bottom: 2px solid #222222;
+    background-color: rgb(137, 210, 220);
 }
 
 .link:hover {
