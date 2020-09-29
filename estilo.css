@@ -18,6 +18,7 @@ img {
 
 
 /*landing page */
+
 .logo {
     margin: -9px 0px 0 400px;
     display: block;
@@ -63,23 +64,24 @@ img {
     font-weight: 600;
     margin: -40px 0px 0 150px;
 }
-.icono-landing{
-    margin: 0px 0px 0 -30px;  
+
+.icono-landing {
+    margin: 0px 0px 0 -30px;
     width: 30%;
     height: 30%;
     float: left;
 }
 
-.informacao-landing{
-  width: 696px;
-  height: 325px;
-  overflow: hidden;
-  font-family: "Inter-Bold", "Inter", sans-serif;
-  color: #ffffff;
-  font-size: 15px;
-  letter-spacing: 0px;
-  line-height: 1.2;
-  font-weight: 700;
+.informacao-landing {
+    width: 696px;
+    height: 325px;
+    overflow: hidden;
+    font-family: "Inter-Bold", "Inter", sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: 700;
 }
 
 .fundologin {
@@ -96,7 +98,7 @@ img {
 }
 
 .imagenlanding {
-    background-attachment: fixed;  
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     width: 30%;
@@ -126,7 +128,7 @@ img {
     margin: 30px 0px 0 160px;
 }
 
-.subtitulo-formulario{ 
+.subtitulo-formulario {
     width: 569px;
     height: 44px;
     overflow: hidden;
@@ -138,29 +140,31 @@ img {
     font-weight: 700;
     margin: 0px 0px 0 190px;
 }
-.formulario-nombre{ 
-  width: 24px;
-  height: 12px;
-  overflow: hidden;
-  font-family: "Inter-Bold", "Inter", sans-serif;
-  color: #000000;
-  font-size: 22px;
-  letter-spacing: 0px;
-  line-height: 2;
-  margin: 0px 0px 0 80px;
-  font-weight: 700;
 
-}    
+.formulario-nombre {
+    width: 24px;
+    height: 12px;
+    overflow: hidden;
+    font-family: "Inter-Bold", "Inter", sans-serif;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 2;
+    margin: 0px 0px 0 80px;
+    font-weight: 700;
+}
 
-.inputlanding{
+.inputlanding {
     width: 70%;
     padding: 7px 0px;
     margin: 0px 0px 0 80px;
     box-sizing: border-box;
 }
-.landingboton{
+
+.landingboton {
     margin: 30px 0px 0 200px;
 }
+
 .frame {
     width: 500px;
     height: 500px;
@@ -212,11 +216,6 @@ input[type=submit]:hover {
     color: white;
 }
 
-<<<<<<< HEAD
-=======
-/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
-
->>>>>>> 99f515868fbd18512fecaf3509788f132e39ad65
 
 /*flexbox organizando a pagina*/
 
@@ -226,13 +225,10 @@ aside {
     flex-direction: row;
 }
 
-<<<<<<< HEAD
 header h2 {
     color: #fff;
     margin: 0 auto;
 }
-=======
->>>>>>> 99f515868fbd18512fecaf3509788f132e39ad65
 
 .header-index {
     display: flex;
@@ -260,7 +256,7 @@ section {
     font-size: 1.5em;
     margin-top: 20px;
     background-color: #fff;
-    border: 4px solid #222;
+    border: 3px solid #222;
 }
 
 
