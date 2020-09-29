@@ -18,6 +18,7 @@ img {
 
 
 /*landing page */
+
 .logo {
     margin: -9px 0px 0 400px;
     display: block;
@@ -63,30 +64,31 @@ img {
     font-weight: 600;
     margin: -40px 0px 0 150px;
 }
-.icono-landing{
-    margin: 0px 0px 0 -30px;  
+
+.icono-landing {
+    margin: 0px 0px 0 -30px;
     width: 30%;
     height: 30%;
     float: left;
 }
 
-.informacao-landing{
-  width: 696px;
-  height: 325px;
-  overflow: hidden;
-  font-family: "Inter-Bold", "Inter", sans-serif;
-  color: #ffffff;
-  font-size: 15px;
-  letter-spacing: 0px;
-  line-height: 1.2;
-  font-weight: 700;
+.informacao-landing {
+    width: 696px;
+    height: 325px;
+    overflow: hidden;
+    font-family: "Inter-Bold", "Inter", sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: 700;
 }
 
 .fundologin {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #666666;
+    background-color: #fff;
     font-size: 22px;
     font-family: "Comfortaa", sans-serif;
     width: 100%;
@@ -96,7 +98,7 @@ img {
 }
 
 .imagenlanding {
-    background-attachment: fixed;  
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     width: 30%;
@@ -126,7 +128,7 @@ img {
     margin: 30px 0px 0 160px;
 }
 
-.subtitulo-formulario{ 
+.subtitulo-formulario {
     width: 569px;
     height: 44px;
     overflow: hidden;
@@ -138,36 +140,42 @@ img {
     font-weight: 700;
     margin: 0px 0px 0 190px;
 }
-.formulario-nombre{ 
-  width: 24px;
-  height: 12px;
-  overflow: hidden;
-  font-family: "Inter-Bold", "Inter", sans-serif;
-  color: #000000;
-  font-size: 22px;
-  letter-spacing: 0px;
-  line-height: 2;
-  margin: 0px 0px 0 80px;
-  font-weight: 700;
 
-}    
+.formulario-nombre {
+    width: 24px;
+    height: 12px;
+    overflow: hidden;
+    font-family: "Inter-Bold", "Inter", sans-serif;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 2;
+    margin: 0px 0px 0 80px;
+    font-weight: 700;
+}
 
-.inputlanding{
+.inputlanding {
     width: 70%;
     padding: 7px 0px;
     margin: 0px 0px 0 80px;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 .landingboto{
+=======
+
+.landingboton {
+>>>>>>> c158be9c094ab4ff01b7b23fb89df7d49e982016
     margin: 30px 0px 0 200px;
 }
+
 .frame {
     width: 500px;
     height: 500px;
     border-radius: 41px;
     color: #fff;
-    background-color: rgba(4, 1, 1, 0.84);
-    top: 55%;
+    background-color: rgb(16, 29, 66);
+    top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -187,6 +195,7 @@ h1 {
 
 h2 {
     font-family: 'Anton', sans-serif;
+    font-size: 50px;
 }
 
 .fname.lname {
@@ -211,8 +220,6 @@ input[type=submit]:hover {
     color: white;
 }
 
-/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
-
 
 /*flexbox organizando a pagina*/
 
@@ -222,6 +229,10 @@ aside {
     flex-direction: row;
 }
 
+header h2 {
+    color: #fff;
+    margin: 0 auto;
+}
 
 .header-index {
     display: flex;
@@ -229,34 +240,34 @@ aside {
     height: 70px;
 }
 
-.container-flex {
+section {
     display: flex;
     margin: 0 auto;
-    margin-top: 50px;
+    flex-flow: column nowrap;
 }
 
 .item {
-    margin: 5px;
+    margin: 7px;
     text-align: center;
     font-size: 1.5em;
 }
 
 .item-noti {
-    height: 400px;
-    width: 700px;
+    height: 460px;
+    width: 1000px;
     margin: 5px;
     text-align: center;
     font-size: 1.5em;
     margin-top: 20px;
-    background-color: #cccc33;
+    background-color: #fff;
+    border: 3px solid #222;
 }
 
 
 /*menu lateral*/
 
 #menuLateral {
-    background-color: rgb(137, 210, 220);
-    height: 100%;
+    background-color: rgb(16, 29, 66);
     width: 230px;
     transition: all .2s linear;
 }
@@ -278,6 +289,7 @@ nav a {
     transition: all .2s linear;
     color: #434343;
     border-bottom: 2px solid #222222;
+    background-color: rgb(137, 210, 220);
 }
 
 .link:hover {

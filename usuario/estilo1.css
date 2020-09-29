@@ -6,5 +6,27 @@
 h1 {
     text-align: center;
     font-size: 35px;
+    color: #fff;
     font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #454531;
+    width: 100%;
+    padding: 12px;
+}
+
+section {
+    background-color: aqua;
+    width: 340px;
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+#fotoVeiculo {
+    background-color: #454531;
 }
