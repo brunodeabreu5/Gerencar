@@ -333,3 +333,12 @@
     .link1:hover {
         background-color: #cccc33;
     }
+    
+    label {
+        font-size: 20pt;
+        transition: all .2s linear;
+    }
+    
+    .menuPesquisa {
+        display: flex;
+    }
