@@ -1,293 +1,335 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    font: 24px Helvetica;
-    /*background: #999999;*/
-}
-
-img {
-    /*background-image: url(img/fundo.jpg);*/
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-}
-
-
-/*landing page */
-
-.logo {
-    margin: -9px 0px 0 400px;
-    display: block;
-    width: 600px;
-    height: 110px;
-}
-
-.cabecera {
-    width: 1363px;
-    height: 90px;
-    overflow: hidden;
-    background-color: rgba(255, 0, 0, 0.79);
-    border: 1px solid #eebb55;
-}
-
-.fondo-landing-page {
-    background-color: #000000;
-    margin: 0px 0px 0 0px;
-}
-
-.titulo {
-    width: 525px;
-    height: 150px;
-    overflow: hidden;
-    font-family: "Arvo", serif;
-    color: #ffffff;
-    font-size: 40px;
-    letter-spacing: 0px;
-    line-height: 1.2;
-    font-style: bold;
-    margin: 10px 0px 0 50px;
-}
-
-.fuente {
-    width: 381px;
-    height: 44px;
-    overflow: hidden;
-    font-family: "Inter-Bold", "Inter", sans-serif;
-    color: #ffffff;
-    font-size: 15px;
-    letter-spacing: 0px;
-    line-height: 1.2;
-    font-weight: 600;
-    margin: -40px 0px 0 150px;
-}
-
-.icono-landing {
-    margin: 0px 0px 0 -30px;
-    width: 30%;
-    height: 30%;
-    float: left;
-}
-
-.informacao-landing {
-    width: 696px;
-    height: 325px;
-    overflow: hidden;
-    font-family: "Inter-Bold", "Inter", sans-serif;
-    color: #ffffff;
-    font-size: 15px;
-    letter-spacing: 0px;
-    line-height: 1.2;
-    font-weight: 700;
-}
-
-.fundologin {
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #fff;
-    font-size: 22px;
-    font-family: "Comfortaa", sans-serif;
-    width: 100%;
-    height: 100%;
-    font-weight: bold;
-    margin: auto;
-}
-
-.imagenlanding {
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 30%;
-    height: 30%;
-    margin: -1000px 0px 0 40px;
-}
-
-.formulario {
-    width: 750px;
-    height: 450px;
-    overflow: visible;
-    background: linear-gradient(180deg, #ff0000 0%, hsl(0, 0%, 72%) 100%);
-    margin: -470px 50px 0 0px;
-    float: right;
-}
-
-.titulo-formulario {
-    width: 500px;
-    height: 35px;
-    overflow: hidden;
-    font-family: "Inter-Bold", "Inter", sans-serif;
-    color: #000000;
-    font-size: 30px;
-    letter-spacing: 0px;
-    line-height: 1.2;
-    font-weight: 700;
-    margin: 30px 0px 0 160px;
-}
-
-.subtitulo-formulario {
-    width: 569px;
-    height: 44px;
-    overflow: hidden;
-    font-family: "Inter-Bold", "Inter", sans-serif;
-    color: #000000;
-    font-size: 18px;
-    letter-spacing: 0px;
-    line-height: 1.2;
-    font-weight: 700;
-    margin: 0px 0px 0 190px;
-}
-
-.formulario-nombre {
-    width: 24px;
-    height: 12px;
-    overflow: hidden;
-    font-family: "Inter-Bold", "Inter", sans-serif;
-    color: #000000;
-    font-size: 22px;
-    letter-spacing: 0px;
-    line-height: 2;
-    margin: 0px 0px 0 80px;
-    font-weight: 700;
-}
-
-.inputlanding {
-    width: 70%;
-    padding: 7px 0px;
-    margin: 0px 0px 0 80px;
-    box-sizing: border-box;
-}
-
-.landingboton {
-    margin: 30px 0px 0 200px;
-}
-
-.frame {
-    width: 500px;
-    height: 500px;
-    border-radius: 41px;
-    color: #fff;
-    background-color: rgb(16, 29, 66);
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    font-weight: bold;
-    padding: 40px 76px;
-}
-
-h1 {
-    font-family: 'Anton', sans-serif;
-    color: #fffb00;
-    font-size: 85px;
-    letter-spacing: 4px;
-    line-height: 1.8;
-    font-weight: 400;
-}
-
-h2 {
-    font-family: 'Anton', sans-serif;
-    font-size: 50px;
-}
-
-.fname.lname {
-    font-family: 'Noto Sans', sans-serif;
-    line-height: 5;
-}
-
-.inputlogin {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-}
-
-input[type=submit] {
-    padding: 12px 20px;
-    font-size: 20px;
-}
-
-input[type=submit]:hover {
-    background-color: black;
-    color: white;
-}
-
-
-/*flexbox organizando a pagina*/
-
-aside {
-    display: flex;
-    background-color: #fff;
-    flex-direction: row;
-}
-
-header h2 {
-    color: #fff;
-    margin: 0 auto;
-}
-
-.header-index {
-    display: flex;
-    background-color: rgb(16, 29, 66);
-    height: 70px;
-}
-
-section {
-    display: flex;
-    margin: 0 auto;
-    flex-flow: column nowrap;
-}
-
-.item {
-    margin: 7px;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-.item-noti {
-    height: 460px;
-    width: 1000px;
-    margin: 5px;
-    text-align: center;
-    font-size: 1.5em;
-    margin-top: 20px;
-    background-color: #fff;
-    border: 3px solid #222;
-}
-
-
-/*menu lateral*/
-
-#menuLateral {
-    background-color: rgb(16, 29, 66);
-    width: 230px;
-    transition: all .2s linear;
-}
-
-nav {
-    background-color: rgb(16, 29, 66);
-    width: 100%;
-}
-
-nav a {
-    text-decoration: none;
-}
-
-.link {
-    /*background-color: #8888bb;*/
-    padding: 20px;
-    font-family: 'arial';
-    font-size: 25pt;
-    transition: all .2s linear;
-    color: #434343;
-    border-bottom: 2px solid #222222;
-    background-color: rgb(137, 210, 220);
-}
-
-.link:hover {
-    background-color: #cccc33;
-}
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        font: 24px Helvetica;
+        /*background: #999999;*/
+    }
+    
+    img {
+        /*background-image: url(img/fundo.jpg);*/
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+    /*landing page */
+    
+    .logo {
+        margin: -9px 0px 0 400px;
+        display: block;
+        width: 600px;
+        height: 110px;
+    }
+    
+    .cabecera {
+        width: 1363px;
+        height: 90px;
+        overflow: hidden;
+        background-color: rgba(255, 0, 0, 0.79);
+        border: 1px solid #eebb55;
+    }
+    
+    .fondo-landing-page {
+        background-color: #000000;
+        margin: 0px 0px 0 0px;
+    }
+    
+    .titulo {
+        width: 525px;
+        height: 150px;
+        overflow: hidden;
+        font-family: "Arvo", serif;
+        color: #ffffff;
+        font-size: 40px;
+        letter-spacing: 0px;
+        line-height: 1.2;
+        font-style: bold;
+        margin: 10px 0px 0 50px;
+    }
+    
+    .fuente {
+        width: 381px;
+        height: 44px;
+        overflow: hidden;
+        font-family: "Inter-Bold", "Inter", sans-serif;
+        color: #ffffff;
+        font-size: 15px;
+        letter-spacing: 0px;
+        line-height: 1.2;
+        font-weight: 600;
+        margin: -40px 0px 0 150px;
+    }
+    
+    .icono-landing {
+        margin: 0px 0px 0 -30px;
+        width: 30%;
+        height: 30%;
+        float: left;
+    }
+    
+    .informacao-landing {
+        width: 696px;
+        height: 325px;
+        overflow: hidden;
+        font-family: "Inter-Bold", "Inter", sans-serif;
+        color: #ffffff;
+        font-size: 15px;
+        letter-spacing: 0px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+    
+    .fundologin {
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #fff;
+        font-size: 22px;
+        font-family: "Comfortaa", sans-serif;
+        width: 100%;
+        height: 100%;
+        font-weight: bold;
+        margin: auto;
+    }
+    
+    .imagenlanding {
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 30%;
+        height: 30%;
+        margin: -1000px 0px 0 40px;
+    }
+    
+    .formulario {
+        width: 750px;
+        height: 450px;
+        overflow: visible;
+        background: linear-gradient(180deg, #ff0000 0%, hsl(0, 0%, 72%) 100%);
+        margin: -470px 50px 0 0px;
+        float: right;
+    }
+    
+    .titulo-formulario {
+        width: 500px;
+        height: 35px;
+        overflow: hidden;
+        font-family: "Inter-Bold", "Inter", sans-serif;
+        color: #000000;
+        font-size: 30px;
+        letter-spacing: 0px;
+        line-height: 1.2;
+        font-weight: 700;
+        margin: 30px 0px 0 160px;
+    }
+    
+    .subtitulo-formulario {
+        width: 569px;
+        height: 44px;
+        overflow: hidden;
+        font-family: "Inter-Bold", "Inter", sans-serif;
+        color: #000000;
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 1.2;
+        font-weight: 700;
+        margin: 0px 0px 0 190px;
+    }
+    
+    .formulario-nombre {
+        width: 24px;
+        height: 12px;
+        overflow: hidden;
+        font-family: "Inter-Bold", "Inter", sans-serif;
+        color: #000000;
+        font-size: 22px;
+        letter-spacing: 0px;
+        line-height: 2;
+        margin: 0px 0px 0 80px;
+        font-weight: 700;
+    }
+    
+    .inputlanding {
+        width: 70%;
+        padding: 7px 0px;
+        margin: 0px 0px 0 80px;
+        box-sizing: border-box;
+    }
+    
+    .landingboton {
+        margin: 30px 0px 0 200px;
+    }
+    
+    .frame {
+        width: 500px;
+        height: 500px;
+        border-radius: 41px;
+        color: #fff;
+        background-color: rgb(16, 29, 66);
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        font-weight: bold;
+        padding: 40px 76px;
+    }
+    
+    h1 {
+        font-family: 'Anton', sans-serif;
+        color: #fffb00;
+        font-size: 85px;
+        letter-spacing: 4px;
+        line-height: 1.8;
+        font-weight: 400;
+    }
+    
+    h2 {
+        font-family: 'Anton', sans-serif;
+        font-size: 50px;
+    }
+    
+    .fname.lname {
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 5;
+    }
+    
+    .inputlogin {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+        padding: 12px 20px;
+        font-size: 20px;
+    }
+    
+    input[type=submit]:hover {
+        background-color: black;
+        color: white;
+    }
+    /*flexbox organizando a pagina*/
+    
+    aside {
+        display: flex;
+        background-color: #fff;
+        flex-direction: row;
+    }
+    
+    header h2 {
+        color: #fff;
+        margin: 0 auto;
+    }
+    
+    .header-index {
+        display: flex;
+        background-color: rgb(16, 29, 66);
+        height: 70px;
+    }
+    
+    section {
+        display: flex;
+        margin: 0 auto;
+        flex-flow: column nowrap;
+    }
+    
+    .item {
+        margin: 7px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    .item-noti {
+        height: 460px;
+        width: 1000px;
+        margin: 5px;
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 20px;
+        background-color: #fff;
+        border: 3px solid #222;
+    }
+    /*menu lateral*/
+    
+    #menuLateral {
+        background-color: rgb(16, 29, 66);
+        width: 230px;
+        transition: all .2s linear;
+    }
+    
+    nav {
+        background-color: rgb(16, 29, 66);
+    }
+    
+    nav a {
+        text-decoration: none;
+    }
+    
+    .link {
+        /*background-color: #8888bb;*/
+        padding: 20px;
+        font-family: 'arial';
+        font-size: 25pt;
+        transition: all .2s linear;
+        color: #434343;
+        border-bottom: 2px solid #222222;
+        background-color: rgb(137, 210, 220);
+    }
+    
+    .link:hover {
+        background-color: #cccc33;
+    }
+    
+    ul {
+        display: flex;
+        text-decoration: none;
+    }
+    
+    .link1 {
+        color: #fff;
+        padding: 30px;
+        border: 1px solid #fff;
+    }
+    
+    .botãoinicia {
+        display: flex;
+        text-decoration: none;
+        color: #fff;
+        padding: 30px;
+        width: 105px;
+        background-color: #cccc33;
+        border-bottom: 1px solid #fff;
+    }
+    
+    .botãoinicia:hover {
+        background-color: #eebb55;
+    }
+    
+    #menuLateral1 {
+        padding: 0px;
+        background-color: #cccc33;
+        transition: all .2s linear;
+    }
+    
+    .link2 {
+        padding: 30px;
+        font-family: 'arial';
+        font-size: 20pt;
+        transition: all .2s linear;
+        color: #434343;
+        border-bottom: 1px solid #fff;
+        background-color: rgb(137, 210, 220);
+    }
+    
+    .link2:hover {
+        background-color: #cccc33;
+    }
+    
+    .link1:hover {
+        background-color: #cccc33;
+    }
