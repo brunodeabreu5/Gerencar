@@ -160,12 +160,8 @@ img {
     margin: 0px 0px 0 80px;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
-.landingboto{
-=======
 
-.landingboton {
->>>>>>> c158be9c094ab4ff01b7b23fb89df7d49e982016
+.landingboto{
     margin: 30px 0px 0 200px;
 }
 
@@ -294,4 +290,48 @@ nav a {
 
 .link:hover {
     background-color: #cccc33;
+}
+
+    /*funcion3vehiculos*/
+.logov {
+    margin: 0px 0px 0 400px;
+    display: block;
+    width: 650px;
+    height: 60px;
+}
+
+.itemv {
+    width: 500px;
+    height: 50px;
+    font-family: "Inter-Bold", "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 30px 0px 0 320px;
+}
+
+.tablav{
+    margin: 20px 0px 0 0px;
+    background-color: black;
+    width: 950px;
+    border-collapse: collapse;
+}
+
+.borde{
+    border: solid 1px white;
+    padding: 5px;
+    color: white;
+}
+
+.bordet{
+    border: solid 1px white;
+    padding: 0;
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+th:hover{
+    background-color: rgb(16, 29, 66);
+    color: yellow;
 }
