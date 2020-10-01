@@ -25,7 +25,6 @@
                     <div class="link1">Veículos do Cliente</div>
                 </a>
             </ul>
-
         </nav>
     </header>
     <aside>
@@ -50,24 +49,50 @@
             </a>
         </nav>
         <section>
-            <div class="item">
+            <div class="item1">
                 <form class="itemform">
                     <di class="menuPesquisa">
-                        <label>Nome do cliente:</label>
+                        <label class="menubusca">Nome do cliente:</label>
                         <input class="inputlogin1" type="text" id="fname1" name="fname"></di>
                     <div class="menuPesquisa">
-                        <label>CPF:</label>
+                        <label class="menubusca">CPF:</label>
                         <input class="inputlogin1" type="text" id="fname1" name="fname"></div>
                     <div class="menuPesquisa">
-                        <label>Ordem por:</label>
-                        <input class="inputlogin1" type="texte" id="fname1" name="fname"></div>
-                    <a href="">Pesquisar</a>
+                        <label class="menubusca">Ordem por:</label>
+                        <select class="opcao1">
+                            <option value="Nome">Nome</option>
+                            <option value="CPF">CPF</option>
+                            <option value="Data">Data</option>
+                        </select>
+                    </div>
+                    <div class="menuPesquisabotao">
+                        <a id="botaopesquisa" type="text" href="">Pesquisar</a>
+                    </div>
                 </form>
-
-            </div>
-            <div class="item-noti">
-
-            </div>
+                <div class="item-buscacliente">
+                    <div id="statuscliente">
+                        <div id="nomedocliente">Nome
+                            <div id="resultadocliente">Pedro da Silva</div>
+                            <div id="resultadocliente">João gomes</div>
+                        </div>
+                        <div id="cpfcliente">CPF
+                            <div id="resultadocliente">611.276.890-96</div>
+                            <div id="resultadocliente">182.097.840-05</div>
+                        </div>
+                        <div id="datacliente">Data
+                            <div id="resultadocliente">20/04/2020</div>
+                            <div id="resultadocliente">23/06/2020</div>
+                        </div>
+                        <div id="dataTelefone">Telefone
+                            <div id="resultadocliente">(45) 99324-5234</div>
+                            <div id="resultadocliente">(45) 99456-3457</div>
+                        </div>
+                        <div id="dataVeiculos">Veiculos
+                            <div id="resultadocliente">2 veiculos</div>
+                            <div id="resultadocliente">1 veiculos</div>
+                        </div>
+                    </div>
+                </div>
         </section>
 
     </aside>
