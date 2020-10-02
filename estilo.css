@@ -249,27 +249,101 @@
         height: 460px;
         width: 1000px;
         margin: 5px;
-        text-align: center;
         font-size: 1.5em;
         margin-top: 20px;
         background-color: #fff;
         border: 3px solid #222;
     }
+    /*simulando serviços em andametos */
     
     #statusservicos {
-        background-color: rgba(143, 136, 136, 0.568);
-        width: 100%;
-        height: 7%;
-        display: flex;
-        justify-content: space-around;
+        height: 40px;
         font-size: 15pt;
+        display: flex;
         align-items: center;
     }
     
+    #servicosid {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    
+    #servicosStatus {
+        width: 14%;
+        font-size: 15pt;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    
+    #servicosfuncionario {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    
+    #servicosPlaca {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    
+    #servicosEntrada {
+        width: 20%;
+        justify-content: center;
+        display: flex;
+        align-self: center;
+    }
+    /*///////////////*/
+    
     #statusveiculos {
-        width: 100%;
-        height: 20%;
-        border: 2px solid black;
+        height: 90px;
+        font-size: 15pt;
+        display: flex;
+        border: 1px solid #6456;
+        align-items: center;
+    }
+    
+    #statusid {
+        width: 10%;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+    
+    #statusStatus {
+        width: 14%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        background-color: #cccc33;
+    }
+    
+    #statusfuncionario {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #statusPlaca {
+        width: 20%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #statusEntrada {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     /*menu lateral*/
     
