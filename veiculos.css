@@ -1,0 +1,50 @@
+.texto{
+         font-family: calibri;
+         font-size: 90%;
+         color: black;
+}
+
+.header-index{
+    display: flex;
+    background-color: rgb(16, 29, 66);
+    height: 70px;
+}
+
+.logov{
+    margin-left: 1px;
+    display: block;
+    width: 650px;
+    height: 60px;
+    
+}
+#menuLateral {
+    background-color: rgb(16, 29, 66);
+    width: 230px;
+}
+.link {
+    /*background-color: #8888bb;*/
+    padding: 20px;
+    font-family: 'arial';
+    font-size: 25pt;
+    color: #434343;
+    border:  2px solid #222222;
+    background-color: rgb(137, 210, 220);
+}
+
+#tabela{
+        font-family: Arial;
+        font-size: 14pt;
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color: rgb(137, 210, 220);
+        padding: 10px;
+        text-align: left;
+        width: 50%;
+        top: 50px;
+        margin-left: 300px;
+        
+        }
+.menu{ 
+        display: flex;
+
+}        
