@@ -768,7 +768,7 @@ ul {
 
 /*resultado da pesquisa do cliente*/
 
-#resultadocliente {
+.resultadocliente {
     margin-top: 2px;
     padding: 10px;
     display: flex;
