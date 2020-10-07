@@ -13,7 +13,7 @@
 .logov{
     margin-left: 1px;
     display: block;
-    width: 650px;
+    width: 350px;
     height: 60px;
     
 }
@@ -26,25 +26,39 @@
     padding: 20px;
     font-family: 'arial';
     font-size: 25pt;
-    color: #434343;
+    color: black;
     border:  2px solid #222222;
     background-color: rgb(137, 210, 220);
 }
 
-#tabela{
-        font-family: Arial;
-        font-size: 14pt;
-        border: 1px solid black;
-        border-collapse: collapse;
-        background-color: rgb(137, 210, 220);
-        padding: 10px;
-        text-align: left;
-        width: 50%;
-        top: 50px;
-        margin-left: 300px;
-        
-        }
+
 .menu{ 
         display: flex;
+        }        
 
-}        
+.caixa{
+        max-width: 700px;
+        margin: 0 auto;
+        border: 2px solid black;
+        background-color: rgb(137, 210, 220);
+        
+}
+.box{
+    margin: 5px;
+    text-align: left;
+    font-family: arial;
+    font-size: 1.5em;
+    color: black;
+    background-color: rgb(137, 210, 220);
+}
+.flex{
+        justify-content: initial;
+        flex-wrap: wrap;
+}
+.h1{
+    text-align:center ;
+}
+.cad{
+    display: flex;
+    justify-content: center;
+}
