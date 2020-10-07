@@ -512,3 +512,13 @@
         background-color: rgb(16, 29, 66);
         color: yellow;
     }
+    
+    .nova {
+        /*background-color: #8888bb;*/
+        padding: 20px;
+        font-family: 'Fira Code', monospace font-size: 25pt;
+        transition: all .2s linear;
+        color: #434343;
+        border-bottom: 2px solid #222222;
+        background-color: rgb(137, 210, 220);
+    }
