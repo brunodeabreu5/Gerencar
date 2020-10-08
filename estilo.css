@@ -6,10 +6,10 @@
 body {
     font: 24px Helvetica;
     /*background: #999999;*/
+    /*background-image: url(img/fundo4.jpg);*/
 }
 
 img {
-    /*background-image: url(img/fundo.jpg);*/
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
@@ -84,19 +84,6 @@ img {
     font-weight: 700;
 }
 
-.fundologin {
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #fff;
-    font-size: 22px;
-    font-family: "Comfortaa", sans-serif;
-    width: 100%;
-    height: 100%;
-    font-weight: bold;
-    margin: auto;
-}
-
 .imagenlanding {
     background-attachment: fixed;
     background-size: cover;
@@ -165,26 +152,36 @@ img {
     margin: 30px 0px 0 200px;
 }
 
+
+/*fundo do login*/
+
+.fundologin {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.fundologin img {
+    height: 160px;
+    width: 160px;
+    margin-top: 20px;
+}
+
 .frame {
-    width: 500px;
-    height: 500px;
-    border-radius: 41px;
-    color: #fff;
-    background-color: rgb(16, 29, 66);
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    font-weight: bold;
-    padding: 40px 76px;
+    width: 450px;
+    height: 550px;
+    background-color: #2982b6;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1 {
     font-family: 'Anton', sans-serif;
-    color: #fffb00;
-    font-size: 85px;
-    letter-spacing: 4px;
+    color: #000000;
+    font-size: 60px;
+    letter-spacing: 5px;
     line-height: 1.8;
     font-weight: 400;
 }
@@ -206,14 +203,39 @@ h2 {
     box-sizing: border-box;
 }
 
+form {
+    height: 30px;
+    width: 55%;
+}
+
+
+/*formatação botão login, fincionario, senha*/
+
 input[type=submit] {
-    padding: 12px 20px;
-    font-size: 20px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input[value=Login] {
+    font-size: 20pt;
+    font-weight: bold;
 }
 
 input[type=submit]:hover {
-    background-color: black;
+    background-color: #000000;
     color: white;
+}
+
+label[for=fname] {
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+label[for=lname] {
+    font-size: 15pt;
+    font-weight: bold;
 }
 
 
@@ -316,7 +338,7 @@ section {
 
 /*///////////////*/
 
-#statusveiculos {
+.statusveiculos {
     height: 90px;
     font-size: 15pt;
     display: flex;
@@ -324,14 +346,14 @@ section {
     align-items: center;
 }
 
-#statusid {
+.statusid {
     width: 10%;
     display: flex;
     align-self: center;
     justify-content: center;
 }
 
-#statusStatus {
+.statusStatus {
     width: 14%;
     height: 80%;
     display: flex;
@@ -342,7 +364,7 @@ section {
     border-radius: 10px;
 }
 
-#statusStatuspronto {
+.statusStatuspronto {
     width: 14%;
     height: 80%;
     display: flex;
@@ -353,7 +375,7 @@ section {
     border-radius: 10px;
 }
 
-#statusStatuspeca {
+.statusStatuspeca {
     width: 14%;
     height: 80%;
     display: flex;
@@ -365,7 +387,7 @@ section {
     border-radius: 10px;
 }
 
-#statusStatusstrasado {
+.statusStatusstrasado {
     width: 14%;
     height: 80%;
     display: flex;
@@ -376,30 +398,30 @@ section {
     border-radius: 10px;
 }
 
-#statusfuncionario {
+.statusfuncionario {
     width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#statusPlaca {
-    width: 20%;
-    height: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-#statusEntrada {
+.statusPlaca {
     width: 20%;
     height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.statusEntrada {
+    width: 20%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#botaoeditarstaus {
+.botaoeditarstaus {
     height: 100%;
     width: 16%;
     display: flex;
@@ -578,7 +600,7 @@ p {
 }
 
 nav {
-    background-color: rgb(16, 29, 66);
+    background-color: #27678b;
 }
 
 nav a {
@@ -587,13 +609,14 @@ nav a {
 
 .link {
     /*background-color: #8888bb;*/
-    padding: 20px;
+    padding: 19.5px;
     font-family: 'arial';
     font-size: 25pt;
+    display: flex;
     transition: all .2s linear;
-    color: #434343;
-    border-bottom: 2px solid #222222;
-    background-color: rgb(137, 210, 220);
+    color: #ffff;
+    border-bottom: 2px solid #434343;
+    background-color: #27678b;
 }
 
 .link:hover {
@@ -757,7 +780,7 @@ ul {
     margin: 1px;
     text-align: center;
     font-size: 1.5em;
-    margin-top: 7px;
+    margin-top: 35px;
     background-color: #fff;
     border: 2px solid #222;
 }
