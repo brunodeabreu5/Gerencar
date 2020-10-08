@@ -6,10 +6,10 @@
 body {
     font: 24px Helvetica;
     /*background: #999999;*/
+    /*background-image: url(img/fundo4.jpg);*/
 }
 
 img {
-    /*background-image: url(img/fundo.jpg);*/
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
@@ -609,9 +609,10 @@ nav a {
 
 .link {
     /*background-color: #8888bb;*/
-    padding: 20px;
+    padding: 19.5px;
     font-family: 'arial';
     font-size: 25pt;
+    display: flex;
     transition: all .2s linear;
     color: #ffff;
     border-bottom: 2px solid #434343;
@@ -779,7 +780,7 @@ ul {
     margin: 1px;
     text-align: center;
     font-size: 1.5em;
-    margin-top: 7px;
+    margin-top: 35px;
     background-color: #fff;
     border: 2px solid #222;
 }
