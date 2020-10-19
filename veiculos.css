@@ -18,14 +18,15 @@
     
 }
 #menuLateral {
+    text-decoration: none;
     background-color: rgb(16, 29, 66);
     width: 230px;
 }
 .link {
-    /*background-color: #8888bb;*/
-    padding: 20px;
+    
+    padding: 10px;
     font-family: 'arial';
-    font-size: 25pt;
+    font-size: 18pt;
     color: black;
     border:  2px solid #222222;
     background-color: rgb(137, 210, 220);
@@ -70,10 +71,11 @@ h1{
     justify-content: center;
 }
 h2{
-    text-align:left ;
+    text-align:center ;
     font-family: arial;
     font-style: oblique;
     font-size: 150%;
+    color: white;
     background-color: rgb(16, 29, 66);
 
 }
