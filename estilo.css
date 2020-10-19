@@ -495,23 +495,27 @@ section {
 
 .bt2-content {
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     width: 50%;
-    height: 70%;
+    height: 50%;
 }
 
 .close1 {
     color: #aaaaaa;
-    float: right;
+    display: flex;
+    justify-content: flex-end;
     font-size: 25px;
     font-weight: bold;
+    background-color: #fff;
 }
 
 .close2 {
     color: #aaaaaa;
-    float: right;
+    display: flex;
+    justify-content: flex-end;
     font-size: 25px;
     font-weight: bold;
+    background-color: #fff;
 }
 
 .close1:hover,
@@ -531,11 +535,14 @@ section {
 
 /****/
 
+
+/*sub tela da pagina */
+
 .bt2 {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 50px;
     left: 0;
     top: 0;
     width: 100%;
