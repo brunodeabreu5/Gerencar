@@ -553,6 +553,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #fff;
 }
 
 .sub-pagina p {
